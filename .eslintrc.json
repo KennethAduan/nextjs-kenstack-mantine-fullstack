@@ -1,6 +1,19 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "plugin:storybook/recommended"
-  ]
+  "extends": ["next/core-web-vitals", "plugin:storybook/recommended"],
+  "rules": {
+    "no-unused-vars": ["error"],
+    "no-shadow": ["error"],
+    "no-console": ["warn"],
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "no-const-assign": ["error"],
+    "no-async-promise-executor": ["error"],
+    "indent": ["error", 2],
+
+    "object-curly-spacing": ["error", "always"]
+    // "next/no-page-missing-endpoint": ["error"],
+    // "next/link-no-missing-href": ["error"]
+    // "no-undef": ["error"],
+    // "space-before-function-paren": ["error", "always"],
+  }
 }

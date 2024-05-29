@@ -3,14 +3,7 @@ import { Button } from "@mantine/core";
 const ButtonComponent = () => {
   return (
     <div>
-      <Button
-        variant="outline"
-        onClick={() => {
-          console.log("clicked");
-        }}
-      >
-        Click me
-      </Button>
+      <Button variant="outline">Click me</Button>
     </div>
   );
 };
